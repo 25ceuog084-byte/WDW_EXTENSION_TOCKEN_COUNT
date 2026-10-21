@@ -1,8 +1,8 @@
-# Usage Meter for Claude (minimal version)
+# Usage Meter for Claude
 
 Load it: chrome://extensions -> Developer mode -> Load unpacked -> pick this folder. (Needs Chrome 120+.)
 
-## How it works (explain it in 4 sentences)
+## How it works
 1. After every reply, inject.js reads the usage report Claude adds to it (this is what works on the FREE plan);
    every 30 seconds background.js also asks claude.ai's /usage page (paid plans only).
 2. background.js saves the session % and weekly % and puts the number on the toolbar icon.
